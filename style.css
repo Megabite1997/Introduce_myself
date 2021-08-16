@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Yomogi", cursive;
+  color: #66bfbf;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #66bfbf;
+}
+
+h3 {
+  color: #11999e;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999e;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+hr {
+  border: dotted 6px; /*6px in width*/
+  color: black;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.introduce-position {
+  font-weight: normal;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.description-you {
+  width: 30%;
+  margin: auto;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.man-img {
+  width: 10%;
+  border-radius: 200px;
+  border: solid;
+  margin-top: 30px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto; /* make the element to be center as we told above, in body*/
+  text-align: left;
+  line-height: 2;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem; /* 75% of 16 pixels */
+  padding: 20px 20px;
+}
+
+.btn {
+  background: #66bfbf;
+  background-image: -webkit-linear-gradient(top, #66bfbf, #6ec8c8);
+  background-image: -moz-linear-gradient(top, #66bfbf, #6ec8c8);
+  background-image: -ms-linear-gradient(top, #66bfbf, #6ec8c8);
+  background-image: -o-linear-gradient(top, #66bfbf, #6ec8c8);
+  background-image: -webkit-gradient(to bottom, #66bfbf, #6ec8c8);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 22px;
+  font-weight: 100;
+  padding: 11px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #ffffff 0;
+  background: #66bfbf;
+  background-image: -webkit-linear-gradient(top, #66bfbf, #49a8a8);
+  background-image: -moz-linear-gradient(top, #66bfbf, #49a8a8);
+  background-image: -ms-linear-gradient(top, #66bfbf, #49a8a8);
+  background-image: -o-linear-gradient(top, #66bfbf, #49a8a8);
+  background-image: -webkit-gradient(to bottom, #66bfbf, #49a8a8);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  text-decoration: none;
+}
